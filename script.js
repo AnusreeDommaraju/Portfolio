@@ -47,8 +47,8 @@ const projects = [
     stack: ["HTML5", "CSS3", "JavaScript"],
     live: "https://golist.tiiny.site/",
     code: "https://github.com/AnusreeDommaraju/MyToDo",
-    image: "images/projects/proj1.jpg",
-    thumb: "images/projects/proj1.jpg"
+    image: "images/proj1.jpg",
+    thumb: "images/proj1.jpg"
   },
   {
     title: "OneStop Madison",
@@ -56,8 +56,8 @@ const projects = [
     stack: ["HTML", "CSS", "JavaScript", "PHP"],
     live: "https://www.onestopmadison.com/",
     code: "https://github.com/AnusreeDommaraju/OneStop",
-    image: "images/projects/proj2.jpg",
-    thumb: "images/projects/proj2.jpg"
+    image: "images/proj2.jpg",
+    thumb: "images/proj2.jpg"
   },
   {
     title: "ProductStore",
@@ -65,8 +65,8 @@ const projects = [
     stack: ["MongoDB", "Express.js", "React", "Node.js"],
     live: "https://productstore-xv5x.onrender.com",
     code: "https://github.com/AnusreeDommaraju/ProductStore",
-    image: "images/projects/proj3.jpg",
-    thumb: "images/projects/proj3.jpg"
+    image: "images/proj3.jpg",
+    thumb: "images/proj3.jpg"
   }
 ];
 
