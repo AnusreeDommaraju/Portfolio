@@ -42,7 +42,7 @@ resumeCards.forEach(card => {
 /* ------------------ PROJECTS DATA & LOGIC ------------------ */
 const projects = [
   {
-    title: "MyToDo Task Manager Application",
+    title: "MyToDo Task Manager",
     desc: "A simple and responsive task manager built with HTML, CSS, and JavaScript to efficiently organize and track daily tasks",
     stack: ["HTML5", "CSS3", "JavaScript"],
     live: "https://golist.tiiny.site/",
