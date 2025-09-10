@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#resume">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">
+            <h1>Anusree Dommaraju</h1>
+            <h2>I'm a
+                <span style="--i:3;" data-text="Web Developer">Web Developer</span>
+                <span style="--i:2;" data-text="App Developer">App Developer</span>
+                <span style="--i:1;" data-text="Youtuber">Youtuber</span>
+            </h2>
+            <p>Hello! Welcome to my Portfolio !!! I'm a Learner Passionate to learn new skills and build my career in
+                development</p>
+            <div class="btn-sci">
+                <a href="https://drive.google.com/file/d/1FpQ6EoDehew0f6VoGBDQK8kIlOWAd3rE/view?usp=sharing" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/AnusreeDommaraju"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/anusree-dommaraju-1b916629a/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/Pic2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2 class="heading">My <span>Resume</span></h2>
+
+        <div class="resume-container">
+            <!-- Left Tabs -->
+            <div class="resume-tabs">
+                <button class="tab active" data-tab="experience">Experience</button>
+                <button class="tab" data-tab="education">Education</button>
+                <button class="tab" data-tab="skills">Skills</button>
+                <button class="tab" data-tab="about">About Me</button>
+            </div>
+
+            <!-- Right Content -->
+            <div class="resume-content">
+                <!-- Experience -->
+                <div class="tab-content active" id="experience">
+                    <div class="resume-grid">
+                        <div class="resume-card">
+                            <span class="year"> Aug 2024 - May 2025</span>
+                            <h3>Graduate Administrative Assistant</h3>
+                            <p class="company"> Dakota State University</p>
+                            <p>Click here to read more...</p>
+                            <div class="resume-card-content">
+                                <p> Researched and prototyped a blockchain-based coupon management system (GRI project). Collaborated on design and security, presented findings at DSU’s Research Symposium, and managed documentation and resources.</p>
+                            </div>
+                        </div>
+                        <div class="resume-card">
+                            <span class="year"> Sep 2021 -  Jul 2024</span>
+                            <h3> Advanced Application Engineering Analyst</h3>
+                            <p class="company">Accenture Solutions Pvt Ltd</p>
+                            <p>Click here to read more...</p>
+                            <div class="resume-card-content">
+                                <p>Modernized legacy systems into scalable microservices (Java, Spring Boot) for a U.S. health benefits and banking client. Built REST APIs and MERN dashboards, contributed to Federal Hub/OSB modules, release cycles, and defect fixes. Collaborated in Agile teams with CI/CD (Jenkins), Jira, and ARIS. Recognized as TechStar FY24 for leadership and contributions.</p>
+                            </div>
+                        </div>
+                        <div class="resume-card">
+                            <span class="year"> Mar 2021 - Apr 2021</span>
+                            <h3> Cyber Security Virtual Intern</h3>
+                            <p class="company"> Goldman Sachs (Forage Platform)</p>
+                            <p>Click here to read more...</p>
+                            <div class="resume-card-content">
+                                <p>Completed a cybersecurity simulation on leaked password data, recommending protection strategies and gaining exposure to real-world security practices at Goldman Sachs.</p>
+                            </div>
+                        </div>
+                        <div class="resume-card">
+                            <span class="year"> Jun 2019 - Mar 2021</span>
+                            <h3> Technical Project Assistant</h3>
+                            <p class="company"> Nehru Yuvajana Seva Sangam (NYSS)</p>
+                            <p>Click here to read more...</p>
+                            <div class="resume-card-content">
+                                <p>Built internal web tools (HTML, CSS, JS, Bootstrap) to automate workflows and improve productivity. Developed dashboards with Google Charts/Sheets API, maintained the org’s website (Git, PHP), and automated reporting with Apps Script for accurate budget tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="tab-content" id="education">
+                    <div class="resume-grid">
+                        <div class="resume-card">
+                            <span class="year"> 2024 - 2025</span>
+                            <h3> Master’s in Information Systems </h3>
+                            <p class="company"> Dakota State University, Madison, SD </p>
+                            <p>Grade: 4.0</p>
+                        </div>
+                        <div class="resume-card">
+                            <span class="year">2018 - 2022</span>
+                            <h3>  Bachelor of Technology (ECE) </h3>
+                            <p class="company"> Vellore Institute of Technology, Chennai, TN, India</p>
+                            <p> GPA: 8.81</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="tab-content" id="skills">
+                    <div class="skills-grid">
+                        <div class="skill-card"><b>HTML</b></div>
+                        <div class="skill-card"><b>CSS</b></div>
+                        <div class="skill-card"><b>JS</b></div>
+                        <div class="skill-card"><b>Java</b></div>
+                        <div class="skill-card"><b>Python</b></div>
+                        <div class="skill-card"><b>React</b></div>
+                        <div class="skill-card"><b>ReactNative</b></div>
+                        <div class="skill-card"><b>Node.js</b></div>
+                        <div class="skill-card"><b>MongoDB</b></div>
+                    </div>
+                </div>
+
+                <!-- About -->
+                <div class="tab-content" id="about">
+                    <div class="about-section">
+                        <p>
+                            Curious by nature, and driven by code, I’m an aspiring Full Stack Developer, passionate
+                            about turning ideas into
+                            real, working web applications. Currently pursuing a Master’s in Information Systems with a
+                            4.0 GPA, I bring both
+                            academic excellence and hands-on experience to my work. I was honored as a TechStar at
+                            Accenture for
+                            contributing to large-scale enterprise solutions. I’m skilled in building responsive UIs,
+                            designing RESTful APIs, and
+                            working effectively in Agile teams. Known for my eagerness to learn, creative
+                            problem-solving, and attention to
+                            detail. I strive to write clean, scalable code that solves real-world challenges.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <!-- Web Development -->
+            <div class="service-box" data-service="web">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p> Building high-performing, responsive, and user-friendly websites using the latest technologies.</p>
+                <span class="arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                <div class="more-details">
+                    <p>
+                       Capable of Building responsive, scalable applications using Java, Spring Boot, Node.js, React.js, and Express.js. 
+                       Expertise in designing RESTful APIs, microservices, and modern database solutions (MongoDB, MySQL, Oracle). 
+                       Experienced in Agile delivery and CI/CD with Jenkins.
+                    </p>
+                </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="service-box" data-service="uiux">
+                <div class="icon">
+                    <i class="bx bx-pencil"></i>
+                </div>
+                <h3>Frontend UI/UX Design</h3>
+                <p>Designing beautiful and user-friendly interfaces to deliver a seamless user experience.</p>
+                <span class="arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                <div class="more-details">
+                    <p>
+                        Create modern, user-friendly interfaces with React.js, HTML5, CSS3, and Bootstrap.
+                        Skilled in wireframing and prototyping using Figma and Balsamiq.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Data Visualization & Dashboards -->
+            <div class="service-box" data-service="graphic">
+                <div class="icon">
+                    <i class="bx bxs-palette"></i>
+                </div>
+                <h3>Data Visualization & Dashboards</h3>
+                <p> Turning raw data into interactive dashboards and insights.</p>
+                <span class="arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                <div class="more-details">
+                    <p>
+                        Develop interactive dashboards using Google Charts, Google Sheets API, Power BI, and Tableau.
+                        Automate reporting with Google Apps Script to improve decision-making and reduce manual work.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cybersecurity & Vulnerability Analysis -->
+            <div class="service-box" data-service="graphic">
+                <div class="icon">
+                    <i class="bx bx-shield-quarter"></i>
+                </div>
+                <h3> Cybersecurity & Vulnerability Analysis</h3>
+                <p> Auditing systems and strengthening applications against vulnerabilities.</p>
+                <span class="arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                <div class="more-details">
+                    <p>
+                        Hands-on experience with security audits, penetration testing and vulnerability scanning using Kali Linux and W3af.
+                        Research background in blockchain-based secure applications, vulnerability scanning systems and participated in cybersecurity simulations (Goldman Sachs).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="projects-head">
+            <h2 class="heading">Latest <span>Project</span></h2>
+
+            <!-- optional mini nav -->
+            <div class="proj-nav">
+                <button class="proj-btn prev" aria-label="Previous project">
+                    <i class='bx bx-chevron-left'></i>
+                </button>
+                <button class="proj-btn next" aria-label="Next project">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="project-frame">
+            <!-- left -->
+            <div class="project-info">
+                <span class="proj-number" id="projNumber">01</span>
+                <h3 class="proj-title" id="projTitle">Frontend Project</h3>
+                <p class="proj-desc" id="projDesc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora vel sit maiores vitae
+                    atque accusantium iste voluptate.
+                </p>
+
+                <div class="proj-stack" id="projStack">
+                    <!-- tags injected by JS -->
+                </div>
+
+                <div class="proj-actions">
+                    <a id="projLive" class="btn" target="_blank" rel="noopener">Live Demo</a>
+                    <a id="projCode" class="btn btn-ghost" target="_blank" rel="noopener">
+                        <i class='bx bxl-github' style="font-size:18px;vertical-align:-2px;margin-right:6px;"></i>Source
+                    </a>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="project-visual">
+                <div class="mock-frame">
+                    <img id="projImage" src="images/projects/proj1.jpg" alt="Project preview">
+                </div>
+            </div>
+        </div>
+
+        <!-- optional thumbnails row -->
+        <div class="proj-thumbs" id="projThumbs">
+            <!-- thumbs injected by JS -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-grid">
+            <!-- Left: text + quick info -->
+            <div class="contact-info">
+                <h2 class="heading">Let’s <span>Work</span> Together</h2>
+                <p class="lead">
+                    I’m open to internships, freelance work, and collaborations. Tell me about your idea,
+                    timeline, or problem you’re trying to solve—let’s build something great.
+                </p>
+
+                <ul class="info-list">
+                    <li class="info-item">
+                        <span class="info-icon"><i class='bx bxs-phone'></i></span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(+12) 345 678 910</p>
+                        </div>
+                    </li>
+
+                    <li class="info-item">
+                        <span class="info-icon"><i class='bx bxs-envelope'></i></span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>youremail@gmail.com</p>
+                        </div>
+                    </li>
+
+                    <li class="info-item">
+                        <span class="info-icon"><i class='bx bxs-map'></i></span>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Anywhere Street, Any City</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right: form card -->
+            <div class="contact-card">
+                <h3>Contact <span>Me!</span></h3>
+
+                <!-- Option A: works with services like Formspree/Netlify (replace the action URL) -->
+                <!-- <form action="https://formspree.io/f/your-id" method="POST" class="contact-form"> -->
+
+                <!-- Option B: client-side demo submit (no backend required) -->
+                <form action="https://formspree.io/f/xpwjlyod" method="POST" class="contact-form">
+                    <div class="form-row two">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Full Name" required />
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Email Address" required />
+                        </div>
+                    </div>
+
+                    <div class="form-row two">
+                        <div class="field">
+                            <input type="tel" name="phone" placeholder="Phone Number" />
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Email Subject" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-block">Send Message</button>
+                    <p class="form-note" id="formNote" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
